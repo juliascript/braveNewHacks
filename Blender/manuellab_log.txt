@@ -1,40 +1,89 @@
-2016-11-19 10:41:26,985 INFO: Looking for the database in the folder data...
-2016-11-19 10:41:26,989 INFO: Looking for an humanoid object...
-2016-11-19 10:41:26,989 INFO: No existing valid human objects found in the scene
-2016-11-19 10:41:26,994 INFO: Looking for an humanoid object...
-2016-11-19 10:41:26,995 INFO: No existing valid human objects found in the scene
-2016-11-19 10:41:44,609 INFO: Start_the lab session...
-2016-11-19 10:41:44,609 INFO: Looking for an humanoid object...
-2016-11-19 10:41:44,609 INFO: No existing valid human objects found in the scene
-2016-11-19 10:41:44,712 INFO: Looking for an humanoid object...
-2016-11-19 10:41:44,712 INFO: Check humanoid version 1,3,0 with the current 1,3,0
-2016-11-19 10:41:44,712 INFO: Version_check: True
-2016-11-19 10:41:44,712 INFO: Found the humanoid object: humanoid_humanm01
-2016-11-19 10:41:44,712 INFO: Character_ID assigned from scratch
-2016-11-19 10:41:44,713 INFO: Init the database...
-2016-11-19 10:41:44,755 INFO: Vertices database vertices.json loaded in 0.025435924530029297 secs
-2016-11-19 10:41:45,043 INFO: Morph database morphs.json loaded in 0.28653597831726074 secs
-2016-11-19 10:41:46,010 INFO: Morph database humanoid_humanm.json loaded in 0.9569544792175293 secs
-2016-11-19 10:41:46,115 INFO: Morph database expressions.json loaded in 0.07699871063232422 secs
-2016-11-19 10:41:46,139 INFO: Boundingboxes database humanoid_humanm_bbox.json loaded in 0.019754886627197266 secs
-2016-11-19 10:41:46,139 INFO: Measure database humanoid_humanm_measures.json loaded with 33 measures
-2016-11-19 10:41:46,139 INFO: Databases loaded in 1.4200248718261719 secs
-2016-11-19 10:41:46,140 INFO: Loading image: humanoid_humanm_displace.png
-2016-11-19 10:41:46,140 INFO: Loading image: humanoid_humanm_dermal.png
-2016-11-19 10:41:46,140 INFO: Loading image: humanoid_humanm_subdermal.png
-2016-11-19 10:41:46,140 INFO: Loading image: humanoid_humanm_complexion.png
-2016-11-19 10:41:46,142 INFO: Loaded 28 categories from morph database
-2016-11-19 10:41:46,384 INFO: Delta init in 0.24156641960144043 secs
-2016-11-19 10:41:46,384 INFO: Transformations database humanoid_humanm_transf.json
-2016-11-19 10:41:46,384 INFO: Getting image humanoid_humanm_displace.png
-2016-11-19 10:41:46,384 INFO: Creating new image 1479580904.7130134_disp.png 
-2016-11-19 10:41:46,421 INFO: Assigning the image humanoid_humanm_dermal.png to node humanoid_human_tex_derm
-2016-11-19 10:41:46,422 INFO: Getting image humanoid_humanm_dermal.png
-2016-11-19 10:41:46,422 INFO: Assigning the image humanoid_humanm_subdermal.png to node humanoid_human_tex_subderm
-2016-11-19 10:41:46,422 INFO: Getting image humanoid_humanm_subdermal.png
-2016-11-19 10:41:46,422 INFO: Assigning the image humanoid_humanm_complexion.png to node humanoid_human_tex_complexion
-2016-11-19 10:41:46,422 INFO: Getting image humanoid_humanm_complexion.png
-2016-11-19 10:41:46,422 INFO: Assigning the image 1479580904.7130134_disp.png to node humanoid_human_tex_displ
-2016-11-19 10:41:46,422 INFO: Getting image 1479580904.7130134_disp.png
-2016-11-19 10:41:46,422 INFO: Assigning the image humanoid_humanm_dermal.png to node humanoid_human_tex_eyes
-2016-11-19 10:41:46,422 INFO: Getting image humanoid_humanm_dermal.png
+2016-11-19 13:25:11,006 INFO: Looking for the database in the folder data...
+2016-11-19 13:25:11,012 INFO: Looking for an humanoid object...
+2016-11-19 13:25:11,012 INFO: No existing valid human objects found in the scene
+2016-11-19 13:25:11,017 INFO: Looking for an humanoid object...
+2016-11-19 13:25:11,018 INFO: No existing valid human objects found in the scene
+2016-11-19 13:25:29,416 INFO: Start_the lab session...
+2016-11-19 13:25:29,417 INFO: Looking for an humanoid object...
+2016-11-19 13:25:29,417 INFO: No existing valid human objects found in the scene
+2016-11-19 13:25:29,518 INFO: Looking for an humanoid object...
+2016-11-19 13:25:29,518 INFO: Check humanoid version 1,3,0 with the current 1,3,0
+2016-11-19 13:25:29,518 INFO: Version_check: True
+2016-11-19 13:25:29,518 INFO: Found the humanoid object: humanoid_humanm01
+2016-11-19 13:25:29,518 INFO: Character_ID assigned from scratch
+2016-11-19 13:25:29,518 INFO: Init the database...
+2016-11-19 13:25:29,562 INFO: Vertices database vertices.json loaded in 0.02615523338317871 secs
+2016-11-19 13:25:29,856 INFO: Morph database morphs.json loaded in 0.2928171157836914 secs
+2016-11-19 13:25:30,822 INFO: Morph database humanoid_humanm.json loaded in 0.9567141532897949 secs
+2016-11-19 13:25:30,928 INFO: Morph database expressions.json loaded in 0.07808399200439453 secs
+2016-11-19 13:25:30,954 INFO: Boundingboxes database humanoid_humanm_bbox.json loaded in 0.021575927734375 secs
+2016-11-19 13:25:30,954 INFO: Measure database humanoid_humanm_measures.json loaded with 33 measures
+2016-11-19 13:25:30,955 INFO: Databases loaded in 1.4287989139556885 secs
+2016-11-19 13:25:30,955 INFO: Loading image: humanoid_humanm_displace.png
+2016-11-19 13:25:30,955 INFO: Loading image: humanoid_humanm_dermal.png
+2016-11-19 13:25:30,956 INFO: Loading image: humanoid_humanm_subdermal.png
+2016-11-19 13:25:30,956 INFO: Loading image: humanoid_humanm_complexion.png
+2016-11-19 13:25:30,958 INFO: Loaded 28 categories from morph database
+2016-11-19 13:25:31,204 INFO: Delta init in 0.24593830108642578 secs
+2016-11-19 13:25:31,205 INFO: Transformations database humanoid_humanm_transf.json
+2016-11-19 13:25:31,206 INFO: Getting image humanoid_humanm_displace.png
+2016-11-19 13:25:31,206 INFO: Creating new image 1479590729.5185568_disp.png 
+2016-11-19 13:25:31,244 INFO: Assigning the image humanoid_humanm_dermal.png to node humanoid_human_tex_derm
+2016-11-19 13:25:31,244 INFO: Getting image humanoid_humanm_dermal.png
+2016-11-19 13:25:31,244 INFO: Assigning the image humanoid_humanm_subdermal.png to node humanoid_human_tex_subderm
+2016-11-19 13:25:31,244 INFO: Getting image humanoid_humanm_subdermal.png
+2016-11-19 13:25:31,244 INFO: Assigning the image humanoid_humanm_complexion.png to node humanoid_human_tex_complexion
+2016-11-19 13:25:31,244 INFO: Getting image humanoid_humanm_complexion.png
+2016-11-19 13:25:31,244 INFO: Assigning the image 1479590729.5185568_disp.png to node humanoid_human_tex_displ
+2016-11-19 13:25:31,244 INFO: Getting image 1479590729.5185568_disp.png
+2016-11-19 13:25:31,244 INFO: Assigning the image humanoid_humanm_dermal.png to node humanoid_human_tex_eyes
+2016-11-19 13:25:31,244 INFO: Getting image humanoid_humanm_dermal.png
+2016-11-19 13:32:35,518 INFO: Loading character from type_common01.json
+2016-11-19 13:32:35,518 INFO: Check humanoid version 1,3,0 with the current 1,3,0
+2016-11-19 13:32:35,518 INFO: Version_check: True
+2016-11-19 13:32:35,650 WARNING: metadata humanoid_humanm01.last_character_age not found
+2016-11-19 13:32:35,651 WARNING: metadata humanoid_humanm01.last_character_tone not found
+2016-11-19 13:32:35,651 WARNING: metadata humanoid_humanm01.last_character_mass not found
+2016-11-19 13:45:10,600 WARNING: Please fix the scale of Cube.001. It must be the same of human [1,1,1]
+2016-11-19 13:45:12,168 INFO: Applied transformation to Cube.001
+2016-11-19 13:45:13,005 INFO: Saving proxy data for obj Cube.001
+2016-11-19 13:45:13,006 INFO: Saving proxy data in humanoid_humanmCube.001.proxy
+2016-11-19 13:45:13,026 INFO: Saving forma in humanoid_humanmCube.001.forma
+2016-11-19 13:45:13,036 INFO: Forma of obj <bpy_struct, Object("Cube.001")> saved in 0.009808778762817383 secs
+2016-11-19 13:45:15,634 INFO: Applied transformation to Cube
+2016-11-19 13:45:16,343 INFO: Saving proxy data for obj Cube
+2016-11-19 13:45:16,343 INFO: Saving proxy data in humanoid_humanmCube.proxy
+2016-11-19 13:45:16,367 INFO: Saving forma in humanoid_humanmCube.forma
+2016-11-19 13:45:16,380 INFO: Forma of obj <bpy_struct, Object("Cube")> saved in 0.012937784194946289 secs
+2016-11-19 13:45:19,758 INFO: Applied transformation to mh_test_0-shoes06
+2016-11-19 13:45:21,621 INFO: Saving proxy data for obj mh_test_0-shoes06
+2016-11-19 13:45:21,621 INFO: Saving proxy data in humanoid_humanmmh_test_0-shoes06.proxy
+2016-11-19 13:45:21,639 INFO: Saving forma in humanoid_humanmmh_test_0-shoes06.forma
+2016-11-19 13:45:21,648 INFO: Forma of obj <bpy_struct, Object("mh_test_0-shoes06")> saved in 0.008892059326171875 secs
+2016-11-19 13:48:14,252 INFO: Found proxy Cube
+2016-11-19 13:48:14,252 INFO: Loading proxy from humanoid_humanmCube.proxy
+2016-11-19 13:48:14,255 INFO: Loading forma from humanoid_humanmCube.forma
+2016-11-19 13:48:14,270 INFO: Found proxy Cube.001
+2016-11-19 13:48:14,270 INFO: Loading proxy from humanoid_humanmCube.001.proxy
+2016-11-19 13:48:14,273 INFO: Loading forma from humanoid_humanmCube.001.forma
+2016-11-19 13:48:14,285 INFO: Found proxy mh_test_0-shoes06
+2016-11-19 13:48:14,285 INFO: Loading proxy from humanoid_humanmmh_test_0-shoes06.proxy
+2016-11-19 13:48:14,287 INFO: Loading forma from humanoid_humanmmh_test_0-shoes06.forma
+2016-11-19 13:53:22,034 INFO: Found proxy Cube
+2016-11-19 13:53:22,034 INFO: Loading proxy from humanoid_humanmCube.proxy
+2016-11-19 13:53:22,038 INFO: Loading forma from humanoid_humanmCube.forma
+2016-11-19 13:53:22,055 INFO: Found proxy Cube.001
+2016-11-19 13:53:22,055 INFO: Loading proxy from humanoid_humanmCube.001.proxy
+2016-11-19 13:53:22,058 INFO: Loading forma from humanoid_humanmCube.001.forma
+2016-11-19 13:53:22,071 INFO: Found proxy mh_test_0-shoes06
+2016-11-19 13:53:22,071 INFO: Loading proxy from humanoid_humanmmh_test_0-shoes06.proxy
+2016-11-19 13:53:22,073 INFO: Loading forma from humanoid_humanmmh_test_0-shoes06.forma
+2016-11-19 13:56:17,427 INFO: Found proxy Cube
+2016-11-19 13:56:17,428 INFO: Loading proxy from humanoid_humanmCube.proxy
+2016-11-19 13:56:17,431 INFO: Loading forma from humanoid_humanmCube.forma
+2016-11-19 13:56:17,447 INFO: Found proxy Cube.001
+2016-11-19 13:56:17,447 INFO: Loading proxy from humanoid_humanmCube.001.proxy
+2016-11-19 13:56:17,452 INFO: Loading forma from humanoid_humanmCube.001.forma
+2016-11-19 13:56:17,466 INFO: Found proxy mh_test_0-shoes06
+2016-11-19 13:56:17,466 INFO: Loading proxy from humanoid_humanmmh_test_0-shoes06.proxy
+2016-11-19 13:56:17,468 INFO: Loading forma from humanoid_humanmmh_test_0-shoes06.forma
