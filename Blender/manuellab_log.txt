@@ -1,0 +1,82 @@
+2016-11-18 22:02:38,046 INFO: Looking for the database in the folder data...
+2016-11-18 22:02:38,051 INFO: Looking for an humanoid object...
+2016-11-18 22:02:38,051 INFO: No existing valid human objects found in the scene
+2016-11-18 22:02:38,063 INFO: Looking for an humanoid object...
+2016-11-18 22:02:38,063 INFO: Check humanoid version 1,3,0 with the current 1,3,0
+2016-11-18 22:02:38,063 INFO: Version_check: True
+2016-11-18 22:04:01,603 INFO: Start_the lab session...
+2016-11-18 22:04:01,603 INFO: Looking for an humanoid object...
+2016-11-18 22:04:01,603 INFO: No existing valid human objects found in the scene
+2016-11-18 22:04:01,703 INFO: Looking for an humanoid object...
+2016-11-18 22:04:01,703 INFO: Check humanoid version 1,3,0 with the current 1,3,0
+2016-11-18 22:04:01,703 INFO: Version_check: True
+2016-11-18 22:04:01,703 INFO: Found the humanoid object: humanoid_humanm01
+2016-11-18 22:04:01,703 INFO: Character_ID assigned from scratch
+2016-11-18 22:04:01,703 INFO: Init the database...
+2016-11-18 22:04:01,746 INFO: Vertices database vertices.json loaded in 0.026079654693603516 secs
+2016-11-18 22:04:02,035 INFO: Morph database morphs.json loaded in 0.28740763664245605 secs
+2016-11-18 22:04:02,993 INFO: Morph database humanoid_humanm.json loaded in 0.9479947090148926 secs
+2016-11-18 22:04:03,096 INFO: Morph database expressions.json loaded in 0.07499432563781738 secs
+2016-11-18 22:04:03,119 INFO: Boundingboxes database humanoid_humanm_bbox.json loaded in 0.01948070526123047 secs
+2016-11-18 22:04:03,119 INFO: Measure database humanoid_humanm_measures.json loaded with 33 measures
+2016-11-18 22:04:03,120 INFO: Databases loaded in 1.4099769592285156 secs
+2016-11-18 22:04:03,120 INFO: Loading image: humanoid_humanm_displace.png
+2016-11-18 22:04:03,120 INFO: Using existing image: humanoid_humanm_dermal.png
+2016-11-18 22:04:03,120 INFO: Using existing image: humanoid_humanm_subdermal.png
+2016-11-18 22:04:03,120 INFO: Using existing image: humanoid_humanm_complexion.png
+2016-11-18 22:04:03,122 INFO: Loaded 28 categories from morph database
+2016-11-18 22:04:03,363 INFO: Delta init in 0.24133872985839844 secs
+2016-11-18 22:04:03,364 INFO: Transformations database humanoid_humanm_transf.json
+2016-11-18 22:04:03,364 INFO: Getting image humanoid_humanm_displace.png
+2016-11-18 22:04:03,364 INFO: Creating new image 1479535441.7034237_disp.png 
+2016-11-18 22:04:03,400 INFO: Assigning the image humanoid_humanm_dermal.png to node humanoid_human_tex_derm
+2016-11-18 22:04:03,401 INFO: Getting image humanoid_humanm_dermal.png
+2016-11-18 22:04:03,401 INFO: Assigning the image humanoid_humanm_subdermal.png to node humanoid_human_tex_subderm
+2016-11-18 22:04:03,401 INFO: Getting image humanoid_humanm_subdermal.png
+2016-11-18 22:04:03,401 INFO: Assigning the image humanoid_humanm_complexion.png to node humanoid_human_tex_complexion
+2016-11-18 22:04:03,401 INFO: Getting image humanoid_humanm_complexion.png
+2016-11-18 22:04:03,401 INFO: Assigning the image 1479535441.7034237_disp.png to node humanoid_human_tex_displ
+2016-11-18 22:04:03,401 INFO: Getting image 1479535441.7034237_disp.png
+2016-11-18 22:04:03,401 INFO: Assigning the image humanoid_humanm_dermal.png to node humanoid_human_tex_eyes
+2016-11-18 22:04:03,401 INFO: Getting image humanoid_humanm_dermal.png
+2016-11-18 22:04:03,401 INFO: Re-init the character humanoid_humanm01
+2016-11-18 22:04:03,422 INFO: Loading character from character data
+2016-11-18 22:04:03,423 WARNING: No lab version specified in character data
+2016-11-18 22:04:03,442 WARNING: metadata humanoid_humanm01.last_character_age not found
+2016-11-18 22:04:03,442 WARNING: metadata humanoid_humanm01.last_character_mass not found
+2016-11-18 22:04:03,442 WARNING: metadata humanoid_humanm01.last_character_tone not found
+2016-11-18 22:04:19,534 INFO: Start_the lab session...
+2016-11-18 22:04:19,628 INFO: Looking for an humanoid object...
+2016-11-18 22:04:19,628 INFO: No existing valid human objects found in the scene
+2016-11-18 22:04:19,729 INFO: Looking for an humanoid object...
+2016-11-18 22:04:19,729 INFO: Check humanoid version 1,3,0 with the current 1,3,0
+2016-11-18 22:04:19,729 INFO: Version_check: True
+2016-11-18 22:04:19,729 INFO: Found the humanoid object: humanoid_humanm01
+2016-11-18 22:04:19,729 INFO: Character_ID assigned from scratch
+2016-11-18 22:04:19,729 INFO: Init the database...
+2016-11-18 22:04:19,842 INFO: Vertices database vertices.json loaded in 0.09620237350463867 secs
+2016-11-18 22:04:20,136 INFO: Morph database morphs.json loaded in 0.2926795482635498 secs
+2016-11-18 22:04:20,983 INFO: Morph database humanoid_humanm.json loaded in 0.8368349075317383 secs
+2016-11-18 22:04:21,238 INFO: Morph database expressions.json loaded in 0.22679662704467773 secs
+2016-11-18 22:04:21,262 INFO: Boundingboxes database humanoid_humanm_bbox.json loaded in 0.019565343856811523 secs
+2016-11-18 22:04:21,262 INFO: Measure database humanoid_humanm_measures.json loaded with 33 measures
+2016-11-18 22:04:21,262 INFO: Databases loaded in 1.5260982513427734 secs
+2016-11-18 22:04:21,336 INFO: Loading image: humanoid_humanm_displace.png
+2016-11-18 22:04:21,336 INFO: Using existing image: humanoid_humanm_dermal.png
+2016-11-18 22:04:21,336 INFO: Using existing image: humanoid_humanm_subdermal.png
+2016-11-18 22:04:21,336 INFO: Using existing image: humanoid_humanm_complexion.png
+2016-11-18 22:04:21,338 INFO: Loaded 28 categories from morph database
+2016-11-18 22:04:21,585 INFO: Delta init in 0.24755573272705078 secs
+2016-11-18 22:04:21,587 INFO: Transformations database humanoid_humanm_transf.json
+2016-11-18 22:04:21,587 INFO: Getting image humanoid_humanm_displace.png
+2016-11-18 22:04:21,587 INFO: Creating new image 1479535459.729731_disp.png 
+2016-11-18 22:04:21,622 INFO: Assigning the image humanoid_humanm_dermal.png to node humanoid_human_tex_derm
+2016-11-18 22:04:21,623 INFO: Getting image humanoid_humanm_dermal.png
+2016-11-18 22:04:21,623 INFO: Assigning the image humanoid_humanm_subdermal.png to node humanoid_human_tex_subderm
+2016-11-18 22:04:21,623 INFO: Getting image humanoid_humanm_subdermal.png
+2016-11-18 22:04:21,623 INFO: Assigning the image humanoid_humanm_complexion.png to node humanoid_human_tex_complexion
+2016-11-18 22:04:21,623 INFO: Getting image humanoid_humanm_complexion.png
+2016-11-18 22:04:21,623 INFO: Assigning the image 1479535459.729731_disp.png to node humanoid_human_tex_displ
+2016-11-18 22:04:21,623 INFO: Getting image 1479535459.729731_disp.png
+2016-11-18 22:04:21,623 INFO: Assigning the image humanoid_humanm_dermal.png to node humanoid_human_tex_eyes
+2016-11-18 22:04:21,623 INFO: Getting image humanoid_humanm_dermal.png
