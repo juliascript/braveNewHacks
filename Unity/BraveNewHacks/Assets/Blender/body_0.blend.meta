@@ -72,6 +72,7 @@ ModelImporter:
     100128: toes_R
     100130: upperarm_L
     100132: upperarm_R
+    100134: blood
     400000: //RootNode
     400002: calf_L
     400004: calf_R
@@ -139,16 +140,20 @@ ModelImporter:
     400128: toes_R
     400130: upperarm_L
     400132: upperarm_R
+    400134: blood
     2300000: Cube
     2300002: Cube_001
     2300004: mh_test_0-shoes06
+    2300006: blood
     3300000: Cube
     3300002: Cube_001
     3300004: mh_test_0-shoes06
+    3300006: blood
     4300000: humanoid_humanm01
     4300002: Cube_001
     4300004: Cube
     4300006: mh_test_0-shoes06
+    4300008: blood
     7400000: Default Take
     9500000: //RootNode
     13700000: humanoid_humanm01
