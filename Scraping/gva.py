@@ -10,46 +10,55 @@ class Incident(dict):
 			self.update(iterable)
 
 	def update(self, iterable):
-		for item in iterable: 
-			self['%s' % item] = item
+
+		arrayOfKeys = ['date', 'state', 'city', 'address', 'numKilled', 'numInjured', 'links']
+
+		for i in range(len(iterable)): 
+
+			if arrayOfKeys[i] == 'links':
+				links = iterable[i].find_all('a')
+				value = {'incident': links[0], 'source': links[1]}
+			else:
+				value = iterable[i].text
+			
+			key = "%s" % arrayOfKeys[i]
+			self[key] = value
 
 
-# November 19th, 2015 , firearm deaths
-url = "http://www.gunviolencearchive.org/query/f2392d4e-8219-4ade-8711-0de9f34567a2"
+def make_request(day):
+	url = "http://www.gunviolencearchive.org/query/f2392d4e-8219-4ade-8711-0de9f34567a2"
 
-req = requests.get(url)
+	req = requests.get(url)
 
-data = req.text
+	data = req.text
 
-soup = BeautifulSoup(data, 'lxml')
+	soup = BeautifulSoup(data, 'lxml')
 
-f = open('gva.html', 'w')
-f.write("%s" % soup)
+	f = open('gva.html', 'w')
+	f.write("%s" % soup)
 
-results = soup.select("tr")
+	results = soup.select("tr")
 
-resultList = []
-resultComponents = []
-
-for result in results:
-	# print result, '\n\n'
-	# jsonResult = json.dumps(result, indent=2)
-	allTDtags = result.find_all('td'), '\n\n'
-	# print '---', allTDtags, '---'
-	for td in allTDtags:
-		for i in range(len(td)):
-			resultComponents.append(td[i])
-		incident = Incident(resultComponents)
-		resultList.append(incident)
-		print '--'
-
-for result in resultList:
-	print result, '\n\n'
+	resultList = []
 
 
+	for result in results:
+		resultComponents = []
+		tdTags = result.find_all('td')
+		for td in tdTags:
+			resultComponents.append(td)
+			incident = Incident(resultComponents)
+			resultList.append(incident)
 
+	# for result in resultList:
+	# 	print result, '\n\n'
 
+	return resultList
 
+if __name__ == "__main__":
+	results = make_request("11/19/2015")
+	for result in results:
+		print result
 
 
 
