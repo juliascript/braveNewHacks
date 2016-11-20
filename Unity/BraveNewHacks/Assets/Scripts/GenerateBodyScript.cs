@@ -22,7 +22,7 @@ public class GenerateBodyScript : MonoBehaviour {
 			//int zInt = z (0, 25);
 
 			float x = randomInts [(a)%randomInts.Length];
-			float z = randomInts [(a+5)%randomInts.Length];
+			float z = randomInts [(a+7)%randomInts.Length];
 
 			GameObject person = Instantiate (personPrefab);
 			GUIText text = person.GetComponent<GUIText> ();
@@ -38,6 +38,7 @@ public class GenerateBodyScript : MonoBehaviour {
 			displayText.text = array[a];
 			Transform cubeTransform = cube.GetComponent<Transform> ();
 			cubeTransform.position = new Vector3 (x, 0, z);
+			//cubeTransform.rotation =
 		}
 		
 	
