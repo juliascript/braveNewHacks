@@ -38,9 +38,10 @@ public class GvrFPS : MonoBehaviour {
       // Tie this to the camera, and do not keep the local orientation.
       transform.SetParent(cam.GetComponent<Transform>(), true);
     }
+		//textField.text = "this is some text wretten in GvrFPS";
   }
 
-	void showText(string text) {
+	public void showText(string text) {
 		textField.text = text;
 	}
 

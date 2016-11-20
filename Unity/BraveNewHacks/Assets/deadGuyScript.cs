@@ -3,7 +3,8 @@ using System.Collections;
 
 public class deadGuyScript : MonoBehaviour {
 
-	public GameObject textBox;
+	//public GameObject textBox;
+	public GvrFPS textBox;
 
 	// Use this for initialization
 	void Start () {
@@ -12,7 +13,12 @@ public class deadGuyScript : MonoBehaviour {
 
 	public void isPointedAt() {
 
-		textBox.showText ("Hi! I'm some text.");
+		textBox.showText ("Hi! I'm some text. a box was pointed at");
+	}
+
+	public void notPointedAt() {
+
+		textBox.showText ("");
 	}
 	
 	// Update is called once per frame
