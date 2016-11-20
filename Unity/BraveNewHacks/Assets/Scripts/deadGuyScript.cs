@@ -6,7 +6,7 @@ public class deadGuyScript : MonoBehaviour {
 	//public GameObject textBox;
 	public GvrFPS textBox;
 
-	public string displayText;
+	public string displayText="no display text";
 
 	// Use this for initialization
 	void Start () {
